@@ -160,7 +160,7 @@ server_install(){
 	secrets file = /opt/backup/rsyncd.secrets 
 	motd file = /opt/backup/rsyncd.motd 
 
-	read only = yes 
+	#read only = yes 
 	#需改为实际允许访问IP地址段
 	hosts allow = ${allow_server}
 	hosts deny = *
